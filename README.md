@@ -2,7 +2,7 @@
 # Graphical Password Authentication
 
 ## Introduction
-Graphical Password Authentication is a Django-based web application that provides a graphical approach to user authentication. Instead of traditional text-based passwords, users authenticate using graphical patterns, enhancing security and user experience.
+Graphical Password Authentication is a Django-based web application that provides a graphical approach to user authentication. Users authenticate using graphical patterns instead of traditional text-based passwords, enhancing security and user experience.
 
 ## Technologies Used
 - **Backend**: Django (Python)
@@ -47,13 +47,13 @@ Graphical Password Authentication is a Django-based web application that provide
    cp .env.example .env
    ```
 
-- Open the `.env` file and add your database and email credentials:
+- Open the `.env` file and add your email credentials:
    ```env
     EMAIL_USER='username'
     EMAIL_PASS='password'
    ```
 
-    Make sure to replace `EMAIL_USER`, `EMAIL_PASS` with your actual email credentials.
+    Replace `username`, `password` with your email credentials.
 
 
 6. **Run the Development Server**
